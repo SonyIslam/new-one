@@ -1,0 +1,521 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* ==========================================================================
+BASIC
+========================================================================== */
+body {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    color: #6c7279;
+}
+
+
+/* ==========================================================================
+BASIC
+========================================================================== */
+
+
+/* ==========================================================================
+REUSEABLE 
+========================================================================== */
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    background-color: #e84545;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    padding: 13px 28px;
+    margin-top: 100px;
+    margin-left: 454px;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #e52e2e;
+    color: #fff;
+}
+
+
+
+/* ==========================================================================
+REUSEABLE 
+========================================================================== */
+
+/* ==========================================================================
+HEADING
+========================================================================== */
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 144px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 72px;
+}
+
+h5 {
+    color: #000;
+    font-size: 20px;
+    margin-top: 26px;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+/* ==========================================================================
+HEADING
+========================================================================== */
+
+/**==============================MAIN=CSS=================================**/
+
+/* ==========================================================================
+NAV
+========================================================================== */
+.navbar {
+    padding: 35px;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.navbar-nav {
+    margin-left: 100px;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: 0px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    max-width: 1102px;
+    margin: auto;
+}
+
+.navbar-nav .nav-link {
+    color: #ddd4d4;
+    margin-left: 21px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+/* ==========================================================================
+NAV
+========================================================================== */
+
+
+/* ==========================================================================
+HEADER
+========================================================================== */
+.header {
+    background-image: url(../img/banner.jpg);
+    padding-bottom: 152px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header p {
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+}
+
+.header img {
+    vertical-align: middle;
+    border-style: none;
+    float: left;
+    margin-left: -38px;
+}
+
+
+/* ==========================================================================
+HEADER
+========================================================================== */
+
+
+
+/* ==========================================================================
+Features
+========================================================================== */
+
+.Features {
+    background-image: linear-gradient(rgba(135, 80, 156, 0.9), rgba(135, 80, 156, 0.9)), url(../img/hero-bg.jpg);
+    padding: 70px;
+    padding-bottom: 120px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    s
+}
+
+.fas {
+    font-size: 85px;
+    text-align: center;
+    display: block;
+    color: #cf0752;
+}
+
+.Features p {
+    font-size: 14px;
+    line-height: 22.4px;
+    color: #fff;
+    margin-top: 21px;
+    text-align: center;
+}
+
+.feature {
+    margin-top: 30px;
+}
+
+/* ==========================================================================
+Features
+========================================================================== */
+
+
+
+
+
+/* ==========================================================================
+responsive
+========================================================================== */
+
+
+/* ==========================================================================
+max-width:1199px
+========================================================================== */
+
+
+@media (max-width:1199px) {
+
+    /**==============header=================**/
+    .btn {
+        display: inline-block;
+        font-weight: 400;
+        background-color: #e84545;
+        color: #fff;
+        text-align: center;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        padding: 13px 28px;
+        margin-top: 100px;
+        margin-left: 380px;
+    }
+
+    /**==============header=================**/
+}
+
+
+/* ==========================================================================
+max-width:1199px
+========================================================================== */
+
+
+
+
+
+
+/* ==========================================================================
+max-width:991px
+========================================================================== */
+
+@media (max-width:991px) {
+
+    /**==============header=================**/
+    .navbar-nav .nav-link {
+        color: #ddd4d4;
+        margin-left: 4px;
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Open Sans", sans-serif;
+        margin-top: 155px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    .header p {
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 35px;
+    }
+
+    .btn {
+        display: inline-block;
+        font-weight: 400;
+        background-color: #e84545;
+        color: #fff;
+        text-align: center;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        padding: 13px 28px;
+        margin-top: 100px;
+        margin-left: 266px;
+    }
+
+    /**==============header=================**/
+}
+
+
+/* ==========================================================================
+max-width:991px
+========================================================================== */
+
+
+
+
+
+/* ==========================================================================
+max-width:767px
+========================================================================== */
+
+
+@media (max-width:767px) {
+
+    /**==============header=================**/
+
+
+    .navbar-nav .nav-link {
+        color: #ddd4d4;
+        margin-left: 12px;
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+
+    .btn {
+        display: inline-block;
+        font-weight: 400;
+        background-color: #e84545;
+        color: #fff;
+        text-align: center;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        padding: 13px 28px;
+        margin-top: 100px;
+        margin-left: 155px;
+    }
+
+    .header h1 {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Open Sans", sans-serif;
+        margin-top: 155px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 34px;
+    }
+
+    /**==============header=================**/
+
+
+    /**==============Features=================**/
+
+
+
+
+}
+
+
+/* ==========================================================================
+max-width:767px
+========================================================================== */
+
+
+
+
+
+/* ==========================================================================
+max-width:575px
+========================================================================== */
+
+
+@media (max-width:575px) {
+
+
+
+    .btn {
+        display: inline-block;
+        font-weight: 400;
+        background-color: #e84545;
+        color: #fff;
+        text-align: center;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        padding: 13px 28px;
+        margin-top: 100px;
+        margin-left: 173px;
+    }
+}
+
+
+
+
+
+
+
+
+/* ==========================================================================
+max-width:575px
+========================================================================== */
+@media (max-width:320px) {
+    .btn {
+        display: inline-block;
+        font-weight: 400;
+        background-color: #e84545;
+        color: #fff;
+        text-align: center;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        padding: 9px 7px;
+        margin-top: 100px;
+        margin-left: 77px;
+    }
+
+}
